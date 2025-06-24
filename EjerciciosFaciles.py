@@ -171,3 +171,21 @@
 #     numero = 3.14
 #     print(int(numero))
 # numero_decimal_a_entero()
+
+# """
+# Cuenta las concurrencias de un carácter especifico de una cadena (19)
+# """
+# def concurrencias_cadena():
+#     cadena = str(input("Ingrese una cadena:\n"))
+#     concurrencias = cadena.count("a")
+#     print(f"La cantidad de a es:\n{concurrencias}")
+# concurrencias_cadena()
+
+# """
+# Encuentra y muestra el ultimo carácter de una cadena (20)
+# """
+# def UltiumoCaracter():
+#     cadena = str(input("Ingrese una cadena:\n"))
+#     ultimo_caracter = cadena[-1]
+#     print(f"El ultimo caracter es:\n{ultimo_caracter}")
+# UltiumoCaracter()
