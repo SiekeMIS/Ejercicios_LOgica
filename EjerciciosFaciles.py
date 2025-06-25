@@ -189,3 +189,34 @@
 #     ultimo_caracter = cadena[-1]
 #     print(f"El ultimo caracter es:\n{ultimo_caracter}")
 # UltiumoCaracter()
+
+# """
+# Multiplica una cadena por un número entero (21)
+# """
+# def multiplicar_cadena():
+#     cadena = str(input("Ingresa una cadena:\n"))
+#     multiplicacion = cadena *2
+#     print(f"Resultado:\n{multiplicacion}")
+# multiplicar_cadena() 
+
+# """
+# Divide una cadena en una lista de subcadenas (22)
+# """
+# def cadena_a_subcadenas():
+#     cadena = str(input("Ingrese un texto:\n"))
+#     lista = cadena.split()
+#     print(f"Lista:\n{lista}")
+# cadena_a_subcadenas()
+
+# """
+# Verifica que una palabra es un palindromo (23)
+# """
+# def palindromo():
+#     cadena = str(input("Ingrese una palabra:\n"))
+#     print(cadena[::-1])
+#     if cadena == cadena[::-1]:
+#         print("Si es un palindromo")
+#     else:
+#         print("No es un palindomo")
+# palindromo()
+
