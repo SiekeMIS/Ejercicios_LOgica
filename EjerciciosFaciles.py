@@ -220,3 +220,28 @@
 #         print("No es un palindomo")
 # palindromo()
 
+# """
+# Elimina un elemento especifico de una lista (24)
+# """
+# def eliminar_de_lista():
+#     lista = [1, 2, "peyito"]
+#     lista.remove("peyito")
+#     print(lista)
+# eliminar_de_lista()
+
+# """
+# Genera una lista de números de 1 al 200 (25)
+# """
+# def genera_numeros():
+#     lista = []
+#     for i in range(1, 201):
+#         lista.append(i)
+#     print(lista)
+# genera_numeros()
+
+# """
+# o
+# """
+# lista = list(range(1, 201))
+# print(lista)
+
