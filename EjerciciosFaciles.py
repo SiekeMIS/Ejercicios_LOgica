@@ -245,3 +245,34 @@
 # lista = list(range(1, 201))
 # print(lista)
 
+# """
+# intercambia los valores de dos variables con asignación míltiple(26)
+# """
+# def intercambio_variables():
+#     a =int(input("Ingrese el valor de a:\n"))
+#     b = int(input("Ingrese el valor de b:\n"))
+#     a, b = b, a
+#     print(f"El valor de a es:\n{a}")
+#     print(f"El valor de b es:\n{b}")
+# intercambio_variables()
+
+# """
+# Realiza operaciones básicas con conjuntos union e interseccion (27)
+# """
+# def operraciones_conjuntas_inter():
+#     conjunto_a ={1, 2, 3, 4, 5}
+#     conjunto_b = {4, 5, 6, 7, 8}
+#     union = conjunto_a.union(conjunto_b) #o tambien se puede usar conjunto_a | conjunto_b
+#     intersección = conjunto_a.intersection(conjunto_b) # intersección = conjunto_a & conjunto_b
+#     print(union)
+#     print(intersección)
+# operraciones_conjuntas_inter()
+
+# """
+# Extrae un elemento especifico de una tupla (28)
+# """
+# def extraer_elemnto_de_tupla():
+#     tupla = ([1, 2], [3, 4], [5, 6])
+#     elemto_extraido = tupla[2][1] #Extraera el elemento 6 de la tupla
+#     print(f"El elemento extraido es:\n{elemto_extraido}")
+# extraer_elemnto_de_tupla()
