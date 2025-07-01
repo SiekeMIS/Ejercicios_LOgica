@@ -276,3 +276,22 @@
 #     elemto_extraido = tupla[2][1] #Extraera el elemento 6 de la tupla
 #     print(f"El elemento extraido es:\n{elemto_extraido}")
 # extraer_elemnto_de_tupla()
+
+# """
+# Combina dos listas en pares usando la función zip (29)
+# """
+# def combinar_listas():
+#     lista1 = ['Bruno', 'Nala', 'Peyin', 'Peya Loca']
+#     lista2 = [1, 2, 3, 4]
+#     lista_emparejada = list(zip(lista1, lista2))
+#     print(f"Lista en pares:\n{lista_emparejada}")
+# combinar_listas()
+
+# """
+# Elimina duplicados en una lista (30)
+# """
+# def eliminar_duplicados():
+#     lista = [1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9]
+#     lista_singular = list(set(lista))
+#     print(f"Lista sin duplicados:\n{lista_singular}")
+# eliminar_duplicados()
