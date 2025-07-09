@@ -295,3 +295,42 @@
 #     lista_singular = list(set(lista))
 #     print(f"Lista sin duplicados:\n{lista_singular}")
 # eliminar_duplicados()
+
+# """
+# Pide un numero y Verifica si es positivo, negativo o cero. (31)
+# """
+# def verificar_numero():
+#     numero = int(input("Ingrese un numero:\n"))
+#     if numero > 0:
+#         print("El numero es positivo")
+#     elif numero < 0:
+#         print("El numero es negativo")
+#     else:
+#         print("El numero es cero")
+# verificar_numero()
+
+# """
+# Pide un numero y comprueba si es par o impar, utiliza if y modulo (32)
+# """
+# def par_o_impar():
+#     numero = int(input("Ingrese un numero:\n"))
+#     if numero %2==0:
+#         print("El numero es par")
+#     else:
+#         print("El numero es impar")
+# par_o_impar()
+
+# """
+# Determna si un año es bisiesto.
+# Regla de negocio:
+# - Divisible por 4.
+# - No divisible por 100.
+# - Divisible por 400. (33)
+# """
+# def es_bisiesto():
+#     año = int(input("Ingrese un año:\n"))
+#     if año %4==0 and (año %100 !=0 or año %400 ==0):
+#         print(f"El año {año} es bisiesto")
+#     else:
+#         print(f"El año {año} no es bisiesto")
+# es_bisiesto()
