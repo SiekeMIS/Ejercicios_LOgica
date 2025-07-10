@@ -334,3 +334,27 @@
 #     else:
 #         print(f"El año {año} no es bisiesto")
 # es_bisiesto()
+
+# """
+# Verifica si una cadena es mayor o igual a 10 caracteres (34)
+# """
+# def verifica_cadena():
+#     cadena = str(input("Ingresa una cadena:\n"))
+#     cantidad = len(cadena)
+#     # print(cantidad)
+#     if cantidad >= 10:
+#         print(f"La cadena tiene {cantidad}, por ende, 10 o mas caracteres")
+#     else:
+#         print(f"{cantidad} La cadena tiene menos de 10 caracteres")
+# verifica_cadena()
+
+# """
+# Comprueba si un número está en el rango de 1 a 100 (35)
+# """
+# def comprobar_rango():
+#     numero = float(input("Ingrese un Numero:\n"))
+#     if numero >= 1 and (numero <= 100):
+#         print(f"El numero {numero} esta dentro del rango")
+#     else:
+#         print(f"El numero {numero} está fuera del rango")
+# comprobar_rango()
