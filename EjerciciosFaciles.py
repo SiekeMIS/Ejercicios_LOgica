@@ -358,3 +358,48 @@
 #     else:
 #         print(f"El numero {numero} está fuera del rango")
 # comprobar_rango()
+
+# """
+# Pide un caracter y Determina si es una vocal (36)
+# """
+# def es_vocal():
+#     caracter = str(input("ingrese un caracter:\n")).lower()
+#     if caracter in "aeiou":
+#         print("Este caracter es una vocal")
+#     else:
+#         print("No es una vocal")
+# es_vocal()
+
+# """
+# Calcula el maximo de tres numeros (37)
+# """
+# def maximo_tres_numeros():
+#     numeroUno = int(input("Ingrese el primer numero:\n"))
+#     numeroDos = int(input("Ingrese el segundo numero:\n"))
+#     numeroTres = int(input("Ingrese el tercer numero:\n"))
+#     maximo = max(numeroUno, numeroDos, numeroTres)
+#     print(f"El numero maximo es:\n{maximo}")
+# maximo_tres_numeros()
+
+# """
+# Determina si un numero es divisible por 5 y 7 (38)
+# """
+# def divisible_cinco_siete():
+# 	numero = int(input("ingrese un numero:\n"))
+# 	if numero % 7 == 0 and (numero % 5 == 0):
+# 		print(f"El numero {numero} es divisible por 5 y 7 ")
+# 	else:
+# 		print("El numero no es divisible por 5 ni por 7")
+# divisible_cinco_siete()
+
+# """
+# Verifica si la palabra ingresada es python (39)
+# """
+# def verificar_python():
+# 	palabra = str(input("Ingrese la palabra python:\n")).lower()
+# 	if palabra == "python":
+# 		print("La palabra ingresa es python")
+# 	else:
+# 		print("La palabra ingresada NO es python")
+# verificar_python()
+
