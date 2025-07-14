@@ -403,3 +403,38 @@
 # 		print("La palabra ingresada NO es python")
 # verificar_python()
 
+# """
+# Calcular el IMC e interpretarlo (40)
+# """
+# def IMC():
+# 	peso = float(input("Ingrese su peso:\n"))
+# 	estatura = float(input("Ingrese su estatura en metro y centimetro (ejemplo  1.70):\n"))
+# 	estatura_centimetros = estatura * 100  # Convertir a centimetros
+# 	imc = peso / (estatura_centimetros/100)**2
+# 	print(f"Tu IMC es: {imc}")
+# 	if imc <= 18.5:
+# 		print("Tu IMC indica que estas Bajo peso.")
+# 	elif imc > 18.5 and imc <= 24.5:
+# 		print("Tu IMC indica que tu peso es saludable.")
+# 	elif imc > 25 and imc <= 30:
+# 		print ("Tu IMC indica que estas con sobrepeso.")
+# 	elif imc >= 30:
+# 		print("Tu IMC indica que estas Obeso.")
+# IMC()
+
+# """
+# Imprime los numero del 10 al 1 en orden descendente (41)
+# """
+# def imprimir_desc():
+# 	for i in range(10, 0, -3):
+# 		print(i) 
+# imprimir_desc()
+
+# """
+# Solicita al usario ingresar un numero N y luego imprime la suma de todos los numero desde 1 hasta N (42)
+# """
+# def suma_n():
+# 	n = int(input("Ingrese un numero:\n"))
+# 	suma = sum(range(1, n+1))
+# 	print(f"La suma de de los numero del 1 hasta {n} es: {suma}")
+# suma_n()
