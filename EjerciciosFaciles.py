@@ -438,3 +438,30 @@
 # 	suma = sum(range(1, n+1))
 # 	print(f"La suma de de los numero del 1 hasta {n} es: {suma}")
 # suma_n()
+
+# """
+# Solicita al usario ingresar un numero N e imprime el factorial de ese numero (43)
+# """
+# import math
+# def factorial_descendente():
+# 	n = int(input("Ingrese un numero:\n"))
+# 	if n > 0:
+# 		print (f"El factorial de {n} es:\n{math.factorial(n)}")
+# 	else:
+# 		print("El numero debe ser mayor a 1")
+# factorial_descendente()
+
+# """
+# Genera un número aleatorio entre 1 y 10. Luego, pie al usuario adivinar el número hasta que lo haga correctamente. (44)
+# """
+# import random
+# def numero_aleatorio():
+# 	while True:
+# 		numero = random.randint(1, 10)
+# 		intento = int(input("Intenta elegir el Numero Correcto:\n"))
+# 		if intento == numero:
+# 			print(f"Le achuntaste, Amiga eri seca el numero era {numero}")
+# 			break
+# 		else:
+# 			print(f"Error el numero {intento} no es el correcto, de seguro eres onvre.")
+# numero_aleatorio()
