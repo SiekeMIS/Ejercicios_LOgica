@@ -465,3 +465,49 @@
 # 		else:
 # 			print(f"Error el numero {intento} no es el correcto, de seguro eres onvre.")
 # numero_aleatorio()
+
+# """
+# imprime la tabla de multiplicar de cada numero ingresado por el usuario (45)
+# """
+# def tabla_multiplicar():
+# 	numero = int(input("Ingresa un numero:\n"))
+# 	i = 1
+# 	while i <= 12:
+# 		print(f"{numero} x {i} = {numero * i}")
+# 		i = i + 1
+# tabla_multiplicar()
+
+# """
+# Solicita al usuario ingresar un número y cuenta cuántos dígitos tiene. (46)
+# """
+# def contar_digitos():
+# 	numero = int(input("Ingrese una cifra numérica:\n"))
+# 	numero_cadena = str(numero)
+# 	if numero > 0:
+# 		cantidad = len(numero_cadena)
+# 		print(f"Cantidad de dígitos en la cifra:\n{cantidad}")
+# 	else:
+#             print("El numero debe ser mayor a 0")
+# contar_digitos()
+
+# """
+# Hacer un menu de opciones que incluya la opción de salir del programa. (47)
+# """
+# def menu():
+# 	while True:
+# 		print("Bienvenido al super menú de Lucas")
+# 		print("Ingrese una de las siguientes opciones:\n")
+# 		print("1 para ordenar algo")
+# 		print("2 para ir al baño")
+# 		print("3 para salir")
+# 		opcion = int(input("Ingrese el numero aquí:\n"))
+# 		if opcion == 3:
+# 			print("Haslta luego...")
+# 			break
+# 		elif opcion == 2 or opcion == 1:
+# 			print("OKis")
+# 		else:
+# 			if opcion != 1 and opcion != 2 and opcion != 3:
+# 				print("Por favor eliga una opcion valida\n")
+# menu()
+			
