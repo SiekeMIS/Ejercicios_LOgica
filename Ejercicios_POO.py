@@ -21,3 +21,21 @@
 # 	Estudiante_1 = Estudiante("Lucas Darrouy", 5.0)
 # 	Estudiante_1.imprimir()
 # 	print(Estudiante_1.resultado())
+
+# """
+# Crea una clase “Persona”. Con atributos nombre y edad. Además, hay que crear un método “cumpleaños”, que aumente en 1 la edad de la persona cuando se invoque sobre un objeto creado con “Persona”.
+# Tendríamos que lograr ejecutar el siguiente código con la clase creada:
+# """
+
+# class Persona:
+# 	def __init__(self, nombre, edad):
+# 		self.nombre = nombre
+# 		self.edad = edad
+	
+# 	def cumpleaños(self):
+# 		self.edad += 1
+
+# p = Persona(input("Ingrese su nombre:\n"), int(input("Ingrese su edad:\n")))
+# p.cumpleaños()
+# p.cumpleaños()
+# print(f"{p.nombre} {p.edad}")
