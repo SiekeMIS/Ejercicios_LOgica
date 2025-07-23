@@ -512,7 +512,24 @@
 # menu()
 
 # """
-# Simular un lanzamiento de dado hasta obtener un 6 (48)
+# Simular un volado o un lanzamiento de una moneda (48)
+# """
+# import random
+# def lanzamiento():
+# 	while  True:
+# 		moneda = random.randint(1,2)
+# 		if moneda == 1:
+# 			print("Cabeza")
+# 		else:
+# 			print("Cola")
+# 		jugar = input("Tirar de Nuevo (S/N)")
+# 		if jugar.lower() == "n":
+# 			break
+# 	print("Un glande")
+# lanzamiento()
+
+# """
+# Simular un lanzamiento de dado hasta obtener un 6 (49)
 # """
 # import random
 # def lazar_dado():
@@ -526,7 +543,7 @@
 # lazar_dado()
 
 # """
-# Mostrar los números del 1 al 100 pero reemplazando los múltiplos de 3 por "Fizz" y los múltiplos de 5 por "Buzz" (49)
+# Mostrar los números del 1 al 100 pero reemplazando los múltiplos de 3 por "Fizz" y los múltiplos de 5 por "Buzz" (50)
 # """
 # def FizzBuzz():
 # 	for i in range(1, 101):
@@ -540,3 +557,20 @@
 # 			print(i)
 # FizzBuzz()
 
+# """
+# Imprimir los numero del 1 al 5 con for (51)
+# """
+# def uso_de_for():
+# 	for i in range(1, 6):
+# 		print(i)
+# uso_de_for()
+
+# """
+# Sumar los números del 1 al 10 con for (52)
+# """
+# def suma_for():
+# 	suma = 0
+# 	for i in range(1, 11):
+# 		suma = suma + i
+# 	print(f"La suma es: {suma}")
+# suma_for()
