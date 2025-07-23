@@ -39,3 +39,41 @@
 # p.cumpleaños()
 # p.cumpleaños()
 # print(f"{p.nombre} {p.edad}")
+
+# """
+# Realizar un programa en el cual se declaren dos valores enteros por teclado utilizando el método __init__. Calcular después la suma, resta, multiplicación y división. 
+# Utilizar un método para cada una e imprimir los resultados obtenidos. Llamar a la clase Calculadora.
+# """
+# class Calculadora:
+# 	def __init__(self, numero_uno, numero_dos):
+# 		self.numero_uno = numero_uno
+# 		self.numero_dos = numero_dos
+	
+# 	def suma(self):
+# 		resultado = self.numero_uno + self.numero_dos
+# 		print (f"La suma de los números {self.numero_uno} + {self.numero_dos} es: {resultado}")
+
+# 	def resta(self):
+# 		resultado = self.numero_uno - self.numero_dos
+# 		print(f"La resta de los números {self.numero_uno} - {self.numero_dos} es: {resultado}")
+	
+# 	def multiplicación(self):
+# 		resultado = self.numero_uno * self.numero_dos
+# 		print(f"El producto de los numeros {self.numero_uno} * {self.numero_dos} es: {resultado}")
+	
+# 	def división(self):
+# 		resultado = self.numero_uno / self.numero_dos
+# 		print(f"La división de los numero {self.numero_uno} / {self.numero_dos} es: {resultado}")
+
+# # Ejemplo de uso:
+# calculo = Calculadora(5, 12)
+# calculo.suma()
+
+# calculo = Calculadora(1, 15)
+# calculo.resta()
+
+# calculo = Calculadora(12, 2)
+# calculo.multiplicación()
+
+# calculo = Calculadora(10, 2)
+# calculo.división()
