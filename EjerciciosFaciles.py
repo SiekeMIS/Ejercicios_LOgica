@@ -574,3 +574,31 @@
 # 		suma = suma + i
 # 	print(f"La suma es: {suma}")
 # suma_for()
+
+# """
+# Imprimir los elementos de una lista dada (53)
+# """
+
+# def imprimir():
+# 	lista = ["Manzana", "Pollo", 4]
+# 	for i in lista:
+# 		print(f"Lista: {i}")
+# imprimir()		
+
+# """
+# Imprimir los caracteres de una cadena utilizando el ciclo for (54)
+# """
+
+# def imprimir_caracteres():
+# 	cadena = str(input("Ingrese una cadena:\n"))
+# 	for i in cadena:
+# 		print(i)
+# imprimir_caracteres()
+
+# """
+# Imprimir los números pares del 2 al 10 con el ciclo for (55)
+# """
+# def numeros_pares():
+# 	for i in range(2, 12, 2):
+# 		print(i)
+# numeros_pares()
