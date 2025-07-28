@@ -602,3 +602,40 @@
 # 	for i in range(2, 12, 2):
 # 		print(i)
 # numeros_pares()
+
+# """
+# Listar 10 números y calcular el cuadrado de cada uno e imprimirlos utilizando for (56)
+# """
+# def calculo_cuadrado():
+# 	lista = [1, 3, 6, 89, 5]
+# 	for i in lista:
+# 		print(f"El cuadrado de {i} es {i**2}")
+# calculo_cuadrado()
+
+# """
+# Imprimir los números del 5 al 1 en orden descendente (57)
+# """
+# def descendente():
+# 	for i in range(5, 0, -1):
+# 		print(i)
+# descendente()
+
+# """
+# Multiplicar todos los elementos de una lista por 2 (58)
+# """
+# def multiplicar_lista():
+# 	lista = [4, 5, 3, 54, "Bruno", "Nala"]
+# 	for i in lista:
+# 		print(f"{i} x 2 = {i*2}")
+# multiplicar_lista()
+
+# """
+# Pedir al usuario un numero e imprimir la tabla de multiplicar del mismo
+# """
+# def pedir_multiplicar():
+# 	numero = int(input("Ingrese un numero:\n"))
+# 	lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+# 	print(f"TABLA DE {numero}:")
+# 	for i in lista:
+# 		print(f"{numero} x {i} = {i*numero}")
+# pedir_multiplicar()
