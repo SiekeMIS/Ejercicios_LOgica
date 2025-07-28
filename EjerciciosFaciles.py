@@ -630,7 +630,7 @@
 # multiplicar_lista()
 
 # """
-# Pedir al usuario un numero e imprimir la tabla de multiplicar del mismo
+# Pedir al usuario un numero e imprimir la tabla de multiplicar del mismo (59)
 # """
 # def pedir_multiplicar():
 # 	numero = int(input("Ingrese un numero:\n"))
