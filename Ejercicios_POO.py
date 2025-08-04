@@ -108,31 +108,31 @@
 # print(joven_estudiante.edad)
 # print(joven_estudiante.carrera)
 
-"""
-Crear una clase Fabrica que tenga los atributos de Llantas, Color y Precio; luego crear dos clases más que hereden de Fabrica, las cuales son Moto y Carro.
-Crear métodos que muestren la cantidad de llantas, color y precio de ambos transportes. Por último, crear objetos para cada clase y mostrar por pantalla los atributos de 
-cada uno. (5)
-"""
+# """
+# Crear una clase Fabrica que tenga los atributos de Llantas, Color y Precio; luego crear dos clases más que hereden de Fabrica, las cuales son Moto y Carro.
+# Crear métodos que muestren la cantidad de llantas, color y precio de ambos transportes. Por último, crear objetos para cada clase y mostrar por pantalla los atributos de 
+# cada uno. (5)
+# """
 
-class Fabrica():
-    def __init__(self, llantas, color, precio):
-        self.llantas = llantas
-        self.color = color
-        self.precio = precio    
+# class Fabrica():
+#     def __init__(self, llantas, color, precio):
+#         self.llantas = llantas
+#         self.color = color
+#         self.precio = precio    
 
-class Moto(Fabrica):
-    def mostrar_detalles(self):
-        print(f"La cantidad de llantas: {self.llantas}\nEl color: {self.color}\nEl precio: {self.precio}\n")
+# class Moto(Fabrica):
+#     def mostrar_detalles(self):
+#         print(f"La cantidad de llantas: {self.llantas}\nEl color: {self.color}\nEl precio: {self.precio}\n")
 
-class Carro(Fabrica):
-    def mostrar_detalles(self):
-        print(f"La cantidad de llantas: {self.llantas}\nEl color: {self.color}\nEl precio: {self.precio}\n")
+# class Carro(Fabrica):
+#     def mostrar_detalles(self):
+#         print(f"La cantidad de llantas: {self.llantas}\nEl color: {self.color}\nEl precio: {self.precio}\n")
 
-# Creación de objetos y muestra de información
-print("Moto:")
-moto = Moto(2, "Amarillo", "$1.900.990")
-moto.mostrar_detalles()
+# # Creación de objetos y muestra de información
+# print("Moto:")
+# moto = Moto(2, "Amarillo", "$1.900.990")
+# moto.mostrar_detalles()
 
-print("Carro:")
-carro = Carro(4, "Azul", "$4.500.990")
-carro.mostrar_detalles()
+# print("Carro:")
+# carro = Carro(4, "Azul", "$4.500.990")
+# carro.mostrar_detalles()

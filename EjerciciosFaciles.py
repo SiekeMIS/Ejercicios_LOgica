@@ -639,3 +639,35 @@
 # 	for i in lista:
 # 		print(f"{numero} x {i} = {i*numero}")
 # pedir_multiplicar()
+
+# """
+# Imprimir la suma de los números pares del 1 al 10 utilizando el ciclo for (60)
+# """
+# def imprimir_pares():
+# 	print("Numeros:")
+# 	suma = 0
+# 	for i in range(0, 11, 2):
+# 		print(i)
+# 		suma += i
+# 	print(f"Suma total de todos los pares:\n{suma}")
+# imprimir_pares()
+
+# """
+# Crea una función para sumar dos números (61)
+# """
+# def suma(numeroUno, numeroDos):
+# 	numeroUno = int(input("Ingresa un numero:\n"))
+# 	numeroDos = int(input("Ingresa otro numero:\n"))
+# 	suma = numeroUno + numeroDos
+# 	print(f"La suma de los números es:\n{suma}")
+# suma(0, 0)
+
+# """
+# Crea una función para calcular el área de un circulo (62)
+# """
+# import math
+# def area_circulo(radio):
+# 	radio = int(input("Ingrese el radio del circulo:\n"))
+# 	area = math.pi * radio**2
+# 	print(f"El área del circulo es\n{area}")
+# area_circulo(0)
