@@ -671,3 +671,32 @@
 # 	area = math.pi * radio**2
 # 	print(f"El área del circulo es\n{area}")
 # area_circulo(0)
+
+# """
+# Escribe una función para imprimir un mensaje de saludo (63)
+# """
+# def saludo(nombre):
+# 	nombre = input("Ingrese su nombre para el saludo:\n")
+# 	print(f"Hola {nombre}!")
+# saludo(nombre="")	
+
+# """
+# Escribe una función para verificar si un número es par o impar (64)
+# """
+# def par_o_impar(numero):
+# 	numero = int(input("Ingrese un numero:\n"))
+# 	if numero % 2 == 0:
+# 		print("Este numero es par")
+# 	else:
+# 		print("Este numero es impar")
+# par_o_impar(0)
+
+# """
+# Escribe una función para convertir grados Celsius a fahrenheit (65)
+# """
+# def celsius_a_fahrenheit(grados_celcius):
+# 	grados_celcius = int(input("Ingrese Grados Celsius:\n"))
+# 	grados_fahrenheit = (grados_celcius * 9 /5) + 32
+# 	print(f"{grados_celcius} Grados Celsius serian {grados_fahrenheit} grados Fahrenheit.")
+# celsius_a_fahrenheit(0)
+
