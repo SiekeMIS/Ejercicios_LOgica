@@ -1,4 +1,17 @@
 # """
+# invertir valores (0)
+# """
+# numero1 = 35
+# numero2 = 20
+# auxiliar = 0
+# print(f"El valor de numero1 es: {numero1} y el valor de numero2 es: {numero2}")
+
+# auxiliar = numero2
+# numero2 = numero1
+# numero1 = auxiliar
+# print(f"El valor de numero1 es: {numero1} y el valor de numero2 es: {numero2}")
+
+# """
 # Sumar dos numeros y mostrar su resultado (1)
 # """
 # def suma():

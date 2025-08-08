@@ -185,5 +185,52 @@
 # 		print(f"El nombre del estudiante {self.nombre}, tiene {self.edad} años, su especialidad es {self.especialidad}. Estudia en la Universidad {self.Nombre}")
 
 # persona = Estudiante("UPLA")
-# persona.carrera("Pegagoia en Historia")
+# persona.carrera("Pedagogia en Historia")
 # persona.datos("Lucas", 21)
+
+# """
+# Crea una clase llamada Cuenta que tendrá los siguientes atributos: titular y cantidad (puede tener decimales).
+# El titular será obligatorio y la cantidad es opcional. Crea dos constructores que cumpla lo anterior.
+# Crea sus métodos get, set y toString.
+# Tendrá dos métodos especiales:
+# ingresar(double cantidad): se ingresa una cantidad a la cuenta, si la cantidad introducida es negativa, no se hará nada.
+# retirar(double cantidad): se retira una cantidad a la cuenta, si restando la cantidad actual a la que nos pasan es negativa, la cantidad de la cuenta pasa a ser 0.
+# """
+
+# class Cuenta:
+#     def __init__(self, titular, cantidad=0.0):
+#         self.titular = titular
+#         self.cantidad = cantidad
+
+#     def get_titular(self):
+#         return self.titular
+
+#     def get_cantidad(self):
+#         return self.cantidad
+
+#     def set_titular(self, titular):
+#         self.titular = titular
+
+#     def set_cantidad(self, cantidad):
+#         self.cantidad = cantidad
+
+#     def __str__(self):
+#         return f"Titular: {self.titular}, Cantidad: {self.cantidad:.2f}"
+
+#     def ingresar(self, cantidad):
+#         if cantidad > 0:
+#             self.cantidad += cantidad
+
+#     def retirar(self, cantidad):
+#         if cantidad >= self.cantidad:
+#             self.cantidad = 0
+#         else:
+#             self.cantidad -= cantidad
+
+# # Ejemplo de uso
+# cuenta = Cuenta("Lucas", 1000)
+# print(cuenta)  # Usa __str__
+# cuenta.ingresar(500)
+# print(cuenta)
+# cuenta.retirar(200)
+# print(cuenta)
