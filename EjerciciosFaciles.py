@@ -700,3 +700,50 @@
 # 	print(f"{grados_celcius} Grados Celsius serian {grados_fahrenheit} grados Fahrenheit.")
 # celsius_a_fahrenheit(0)
 
+# """
+# Escribe una función para calcular el promedio de una lista de números (66)
+# """
+# def promedio(lista):
+# 	return sum(lista) / len(lista)
+# print(f"El promedio es {promedio([2, 3, 5, 56, 12, 43, 65, 834])}")
+
+# """
+# Escribe una función para calcular el volumen de un cilindro (V = πr^2h) (66)
+# """
+# import math
+# def cilindro(volumen):
+# 	radio = int(input("Ingrese el radio del cilindro: "))
+# 	altura = int(input("Ingrese la altura del cilindro: "))
+# 	volumen = math.pi * radio ** 2 * altura
+# 	return volumen
+# print(f"El volumen es {cilindro(0)}")
+
+# """
+# Escribe una función para calcular el volumen de un cilindro (V = πr^2h) (66)
+# """
+# import math
+# def cilindro(radio, altura):
+# 	return math.pi * radio ** 2 *altura
+
+# volumen = cilindro(5, 9)
+# print(f"El volumen del cilindro es {volumen}")
+
+# """
+# Escribe una función que pida por teclado la distancia y la velocidad para poder calcular el tiempo de viaje (67)
+# """
+# def calcular_tiempo_viaje():
+# 	distancia = int(input("Ingrese la distancia en Kilometros: "))
+# 	velocidad = int(input("Ingrese la velocidad en Km/h: "))
+# 	return distancia / velocidad
+# resultado = calcular_tiempo_viaje()
+# print(f"Tiempo de viaje: {resultado} Horas")
+
+# """
+# Escribe una función para calcular la tasa de desempleo (Tasa de desempleo = (Número de desempleados / Fuerza laboral) * 100) (68)
+# """
+# def tasa_desempleo():
+# 	Desempleados = int(input("Ingrese la cantidad de desempleados: "))
+# 	Fuerza_laboral = int(input("Ingrese la Fuerza laboral: "))
+# 	return Desempleados / Fuerza_laboral *100
+# resultado = tasa_desempleo()
+# print(f"Cantidad de desempleados: {resultado}")
