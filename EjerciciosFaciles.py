@@ -721,7 +721,7 @@
 # print(f"El promedio es {promedio([2, 3, 5, 56, 12, 43, 65, 834])}")
 
 # """
-# Escribe una función para calcular el volumen de un cilindro (V = πr^2h) (66)
+# Escribe una función para calcular el volumen de un cilindro (V = πr^2h) (67)
 # """
 # import math
 # def cilindro(volumen):
@@ -732,7 +732,7 @@
 # print(f"El volumen es {cilindro(0)}")
 
 # """
-# Escribe una función para calcular el volumen de un cilindro (V = πr^2h) (66)
+# Escribe una función para calcular el volumen de un cilindro (V = πr^2h) (67)
 # """
 # import math
 # def cilindro(radio, altura):
@@ -742,7 +742,7 @@
 # print(f"El volumen del cilindro es {volumen}")
 
 # """
-# Escribe una función que pida por teclado la distancia y la velocidad para poder calcular el tiempo de viaje (67)
+# Escribe una función que pida por teclado la distancia y la velocidad para poder calcular el tiempo de viaje (68)
 # """
 # def calcular_tiempo_viaje():
 # 	distancia = int(input("Ingrese la distancia en Kilometros: "))
@@ -752,7 +752,7 @@
 # print(f"Tiempo de viaje: {resultado} Horas")
 
 # """
-# Escribe una función para calcular la tasa de desempleo (Tasa de desempleo = (Número de desempleados / Fuerza laboral) * 100) (68)
+# Escribe una función para calcular la tasa de desempleo (Tasa de desempleo = (Número de desempleados / Fuerza laboral) * 100) (69)
 # """
 # def tasa_desempleo():
 # 	Desempleados = int(input("Ingrese la cantidad de desempleados: "))
@@ -760,3 +760,43 @@
 # 	return Desempleados / Fuerza_laboral *100
 # resultado = tasa_desempleo()
 # print(f"Cantidad de desempleados: {resultado}")
+
+# """
+# Escribe una función para clasificar si una sustancia es ácida, básica o neutra a partir de su pH (Un pH menor a 7 indica acidez, un pH mayor 
+# a 7 indica basicidad y un pH de 7 es neutro). (70)
+# """
+# def sustancia(ph):
+#     if ph < 7:
+#         return "La sustancia es ácida"
+#     elif ph > 7:
+#         return "La sustancia es básica"
+#     else:
+#         return "La sustancia es neutra"
+# resultado = sustancia(7)
+# print(resultado)
+
+# """
+# Crea una clase Rectángulo con los siguientes atributos:
+# base: base del rectángulo.
+# altura: altura del rectángulo.
+# La clase debe tener los siguientes métodos:
+# **__init__(self, altura, base): Para inicializar los atributos de la clase.
+# **para calcular área(self): calcula y devuelve el área del rectángulo.
+# **para calcular perímetro(self): calcula y devuelve el perímetro del rectángulo (71)
+# """
+
+# class Rectangulo:
+# 	def __init__(self, base, altura):
+# 		self.base = base
+# 		self.altura = altura
+#
+# 	def área(self):
+# 		return self.base * self.altura
+	
+# 	def perímetro(self): 
+# 		return self.base * 2 + self.altura * 2
+# #ejemplo de uso
+# rectángulo = Rectangulo(float(input("Ingrese la Base del rectángulo:\n")), float(input("Ingrese la Altura del rectángulo:\n")))
+# rectángulo.área()
+# rectángulo.perímetro()
+# print(f"El rectángulo tiene de Area: {rectángulo.área()} y de Perímetro {rectángulo.perímetro()}")
