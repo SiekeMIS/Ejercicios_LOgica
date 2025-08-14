@@ -800,3 +800,14 @@
 # rectángulo.área()
 # rectángulo.perímetro()
 # print(f"El rectángulo tiene de Area: {rectángulo.área()} y de Perímetro {rectángulo.perímetro()}")
+
+"""
+Función que identifique un numero palindromo (extra)
+"""
+def palindromo():
+    numero = int(input("Ingrese un numero:\n"))
+    if numero == int(str(numero)[::-1]):
+        print("El numero es un palindromo.")
+    else:
+        print("El numero no es un palindromo.")
+palindromo()
