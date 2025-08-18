@@ -801,13 +801,66 @@
 # rectángulo.perímetro()
 # print(f"El rectángulo tiene de Area: {rectángulo.área()} y de Perímetro {rectángulo.perímetro()}")
 
-"""
-Función que identifique un numero palindromo (extra)
-"""
-def palindromo():
-    numero = int(input("Ingrese un numero:\n"))
-    if numero == int(str(numero)[::-1]):
-        print("El numero es un palindromo.")
-    else:
-        print("El numero no es un palindromo.")
-palindromo()
+# """
+# Función que identifique un numero palindromo (extra)
+# """
+# def palindromo():
+#     numero = int(input("Ingrese un numero:\n"))
+#     if numero == int(str(numero)[::-1]):
+#         print("El numero es un palindromo.")
+#     else:
+#         print("El numero no es un palindromo.")
+# palindromo()
+
+# """
+# Crea una clase Circulo con los siguientes 
+# atributos = radio del circulo
+# La clase debe tener los siguiente
+# métodos =
+# *__init__(self, radio): inicializa los atributos de la clase
+# *calcular_area(self) : calcular y devuelve el área del cirulo
+# *calcular_perimetro(self): calcula y devuelve el perímetro del circulo
+# """
+# import math
+
+# class Circulo:
+# 	def __init__(self, radio):
+# 		self.radio = radio
+	
+# 	def calcular_area(self):
+# 		área = math.pi * self.radio**2
+# 		return área
+
+# 	def calcular_perimetro(self):
+# 		perímetro = 2 * math.pi * self.radio
+# 		return perímetro
+
+# ##ejeplo de uso
+
+# cir = Circulo(5)
+# cir.calcular_area()
+# cir.calcular_perimetro()
+# print(f"El perímetro de la circunferencia es: {cir.calcular_perimetro()} y el área de la circunferencia es: {cir.calcular_area()}")
+
+# """
+# Crear una clase Libro
+# atributos: titulo, autor, editorial, año de pub
+# métodos:
+# contructor para inicializar los atributos
+# """
+
+# class Libro:
+# 	def __init__(self, titulo, autor, editorial, año_publicacion):
+# 		self.titulo = titulo
+# 		self.autor = autor
+# 		self.editorial = editorial
+# 		self.año_publicacion = año_publicacion
+	
+# mi_libro = Libro(
+# 	'Critica de la razón pura',
+# 	'Immanuel Kant',
+# 	'taurus',
+# 	'1781'
+# )
+
+# print(mi_libro.__dict__)
