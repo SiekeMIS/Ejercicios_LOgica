@@ -819,7 +819,7 @@
 # métodos =
 # *__init__(self, radio): inicializa los atributos de la clase
 # *calcular_area(self) : calcular y devuelve el área del cirulo
-# *calcular_perimetro(self): calcula y devuelve el perímetro del circulo
+# *calcular_perimetro(self): calcula y devuelve el perímetro del circulo (72)
 # """
 # import math
 
@@ -846,16 +846,15 @@
 # Crear una clase Libro
 # atributos: titulo, autor, editorial, año de pub
 # métodos:
-# contructor para inicializar los atributos
+# contructor para inicializar los atributos (73)
 # """
-
 # class Libro:
 # 	def __init__(self, titulo, autor, editorial, año_publicacion):
 # 		self.titulo = titulo
 # 		self.autor = autor
 # 		self.editorial = editorial
 # 		self.año_publicacion = año_publicacion
-	
+#
 # mi_libro = Libro(
 # 	'Critica de la razón pura',
 # 	'Immanuel Kant',
