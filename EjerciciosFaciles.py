@@ -863,3 +863,50 @@
 # )
 
 # print(mi_libro.__dict__)
+
+# """
+# Crear una clase personas con los atributos:
+# Nombre, Edad, DNI
+# Con los métodos:
+# __init__()
+# es_mayor_de_edad() este retorna True si es mayor de edad (74)
+# """
+# class Persona:
+# 	def __init__(self, nombre, edad, dni):
+# 		self.nombre = nombre
+# 		self.edad = edad
+# 		self.dni = dni
+
+# 	def es_mayor_de_edad(self):
+# 		return self.edad >= 18
+# #ejemplo de uso
+# persona = Persona("Lucas", 10, "12345678")
+# if persona.es_mayor_de_edad():
+#     print(f"{persona.nombre} es mayor de edad")
+# else:
+#     print(f"{persona.nombre} no es mayor de edad")
+
+# """
+# Crear una clase coche con los atributos:
+# marca, modelo, matricula, km
+# Con los métodos:
+# init como constructor
+# avanzar(km) este aumenta el valor
+# de km en la cantidad (75)
+# """
+
+# class Coche:
+# 	def __init__(self, marca, modelo, matricula, km):
+# 		self.marca = marca
+# 		self.modelo = modelo
+# 		self.matricula = matricula
+# 		self.km = km
+#
+# 	def avanzar(self, km):
+# 		self.km = self.km + km
+
+# #jemplo de uso
+# coche = Coche("Ferrari", "LaFerrari", "f1 1929", 2)
+# print(coche.__dict__)
+# coche.avanzar(300)
+# print(coche.__dict__)
