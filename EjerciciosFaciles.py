@@ -910,3 +910,83 @@
 # print(coche.__dict__)
 # coche.avanzar(300)
 # print(coche.__dict__)
+
+# """
+# Crear una clase animal con los atributos especie y nombre
+# La clase debe tener los métodos:
+# init y hablar()
+# el método hablar nos retorna una palabra
+# según la interpretación del sonido como un perro seria "guau" (76)
+# """
+# class Animal:
+# 	def __init__(self, especie, nombre):
+# 		self.especie = especie
+# 		self.nombre = nombre
+	
+# 	def hablar(self):
+# 		if self.especie == "perro":
+# 			print("Guau")
+# 		elif self.especie == "gato":
+# 			print("Meow")
+# 		elif self.especie == "pollo":
+# 			print("Pio")
+# 		else:
+# 			print("...")
+
+# #ejemplo de aplicación
+
+# animal = Animal("perro", "Bruno")
+# animal2 = Animal("gato", "Nala")
+# animal3 = Animal("pollo", "Peyin")
+# animal.hablar()
+# animal2.hablar()
+# animal3.hablar()
+# print(animal.__dict__)
+# print(animal2.__dict__)
+# print(animal3.__dict__)
+
+# """
+# Crear una clase llamada Persona.
+# con los atributos: nombre, edad
+# *Un constructor donde los datos pueden estar vacíos
+# *Los setters y getters
+# para cada uno de los atributos.
+# *mostrar(): Muestra los datos de la persona.
+# *es MayorDeEdad(): Devuelve un valor lógico
+# indicando si es mayor de edad (77)
+# """
+# class Persona:
+#     def __init__(self, nombre, edad):
+#         self._nombre = nombre
+#         self._edad = edad
+
+#     @property
+#     def nombre(self):
+#         """Getter para el nombre."""
+#         return self._nombre
+
+#     @nombre.setter
+#     def nombre(self, nuevo_nombre):
+#         """Setter para el nombre."""
+#         self._nombre = nuevo_nombre
+
+#     @property
+#     def edad(self):
+#         """Getter para la edad."""
+#         return self._edad
+
+#     @edad.setter
+#     def edad(self, nueva_edad):
+#         """Setter para la edad con validación."""
+#         if nueva_edad >= 0:
+#             self._edad = nueva_edad
+#         else:
+#             print("La edad no puede ser negativa.")
+
+# # Uso
+# persona2 = Persona("Luis", 25)
+# print(f"Nombre: {persona2.nombre}") # Acceso como si fuera un atributo
+# persona2.edad = 26 # Modificación como si fuera un atributo
+# print(f"Edad: {persona2.edad}")
+# persona2.edad = -2 # Intento de asignación no válida
+
